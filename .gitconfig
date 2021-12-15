@@ -1,7 +1,6 @@
 [user]
 	name = Kuldeep Aggarwal
 	email = kuldeep.a.aggarwal@gmail.com
-	signingkey = B600C3ABF631253E8F20979FD771397478E7320E
 [core]
 	excludesfile = ~/.gitignore_global
 	commitGraph = true
