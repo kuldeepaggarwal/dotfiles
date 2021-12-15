@@ -12,6 +12,6 @@ if [ $SPIN ]; then
 
   echo "Configure gpg keys..."
   gpgconf --launch dirmngr
-  gpg --keyserver keys.openpgp.org --recv C8AEFAF5854C97B50FD9543EAB15AE63F7A9BF69
+  gpg --keyserver keys.openpgp.org --recv B600C3ABF631253E8F20979FD771397478E7320E
 fi
 
