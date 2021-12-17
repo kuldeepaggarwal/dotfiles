@@ -9,6 +9,7 @@ ln -s $PWD/.gitconfig $HOME/.gitconfig
 echo "Installing spin specific tools..."
 if [ $SPIN ]; then
   echo "source $PWD/.bash_aliases" >> $HOME/.zshrc
+  echo "source $PWD/.spin_aliases" >> $HOME/.zshrc
 
   echo "Configure gpg keys..."
   gpgconf --launch dirmngr
