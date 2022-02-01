@@ -8,6 +8,7 @@ ln -s $PWD/.gitconfig $HOME/.gitconfig
 
 echo "Installing spin specific tools..."
 if [ $SPIN ]; then
+  echo "export EDITOR=vim" >> $HOME/.zshrc
   echo "source $PWD/.bash_aliases" >> $HOME/.zshrc
   echo "source $PWD/.spin_aliases" >> $HOME/.zshrc
 
