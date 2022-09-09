@@ -1,0 +1,12 @@
+{
+  "font_size": 20,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "ensure_newline_at_eof_on_save": true,
+  "trim_trailing_white_space_on_save": "all",
+  "ignored_packages":
+  [
+    "Vintage",
+  ],
+  "folder_exclude_patterns": ["deps", "_build"],
+}
