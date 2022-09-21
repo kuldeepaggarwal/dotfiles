@@ -1,6 +1,7 @@
 alias gs='git status'
 alias gd='git diff'
 alias gp='git push origin'
+alias gpf='gp --force-with-lease'
 alias gl='git pull origin'
 alias gc='git commit'
 alias ga='git add'
